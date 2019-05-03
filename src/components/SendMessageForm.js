@@ -28,13 +28,14 @@ import React from 'react'
   render() {
     return (
       <form 
-        onSubmit={this.handleSubmit}
-        className="send-message-form">
+          onSubmit={this.handleSubmit}
+          className="send-message-form">
         <input
+          disabled= {this.props.disabled}
           onChange={this.handleChange}
           value={this.state.message}
-         placeholder="Type your message and hit ENTER"
-        type="text" />
+          placeholder="Type your message and hit ENTER"
+          type="text" />
       </form>
     )
   }
