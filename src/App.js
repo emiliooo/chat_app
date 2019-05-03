@@ -98,7 +98,7 @@ class App extends React.Component {
         console.log(this.state.roomId)
         return (      
             <div className="app">
-                <RoomList subscribeToRoom={this.subscribeToRoom} rooms={[...this.state.joinableRooms,...this.state.joinedRooms]}/>
+                <RoomList roomId={this.state.roomId} subscribeToRoom={this.subscribeToRoom} rooms={[...this.state.joinableRooms,...this.state.joinedRooms]}/>
                 <MessageList roomId={this.state.roomId} messages={this.state.messages} />
                 <SendMessageForm disabled={!this.state.roomId} sendMessage={this.sendMessage} />
                 <NewRoomForm createRoom={this.createRoom}/>

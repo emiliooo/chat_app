@@ -197,5 +197,7 @@ REST OF CSS
 }
 
 .active a {
-  color: red
+  color:var(--main-color);
+  font-weight: bold;
+  
 }
