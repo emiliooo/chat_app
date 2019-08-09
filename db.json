@@ -1,0 +1,459 @@
+{
+  "processId": "pakenc_-Qk_hWK2QY1DNbrpogS0tUO1hXe6Yh67wVBr6M_nnU8ohwL1WIjEtNXheS9eRELh",
+  "variants": [
+    {
+      "key": "664f44646631384c7378492d383935677164644e41413d3d",
+      "name": "Wariant 1",
+      "yearlyCost": 48.4
+    },
+    {
+      "key": "7944384f663870434250507054313854376c6f7261773d3d",
+      "name": "Wariant 2",
+      "yearlyCost": 93.3
+    },
+    {
+      "key": "4f6e6b6e6a4a6a49795147625848492b494c704e36673d3d",
+      "name": "Wariant 3",
+      "yearlyCost": 163.1
+    }
+  ],
+  "coverables": [
+    {
+      "label": "Uszkodzenie ciała lub rozstrój zdrowia",
+      "sumsInsured": [
+        {
+          "variantKey": "664f44646631384c7378492d383935677164644e41413d3d",
+          "sumInsured": 30000,
+          "covered": true
+        },
+        {
+          "variantKey": "7944384f663870434250507054313854376c6f7261773d3d",
+          "sumInsured": 50000,
+          "covered": true
+        },
+        {
+          "variantKey": "4f6e6b6e6a4a6a49795147625848492b494c704e36673d3d",
+          "sumInsured": 80000,
+          "covered": true
+        }
+      ],
+      "priority": 10
+    },
+    {
+      "label": "Zwrot kosztów leczenia i rehabilitacji",
+      "sumsInsured": [
+        {
+          "variantKey": "7944384f663870434250507054313854376c6f7261773d3d",
+          "sumInsured": 10000,
+          "covered": true
+        },
+        {
+          "variantKey": "4f6e6b6e6a4a6a49795147625848492b494c704e36673d3d",
+          "sumInsured": 20000,
+          "covered": true
+        }
+      ],
+      "priority": 30
+    },
+    {
+      "label": "Powypadkowa pomoc medyczna - organizacja i pokrycie kosztów",
+      "sumsInsured": [
+        {
+          "variantKey": "664f44646631384c7378492d383935677164644e41413d3d",
+          "sumInsured": null,
+          "covered": true
+        },
+        {
+          "variantKey": "7944384f663870434250507054313854376c6f7261773d3d",
+          "sumInsured": null,
+          "covered": true
+        },
+        {
+          "variantKey": "4f6e6b6e6a4a6a49795147625848492b494c704e36673d3d",
+          "sumInsured": null,
+          "covered": true
+        }
+      ],
+      "priority": 40
+    },
+    {
+      "label": "Powypadkowa pomoc rehabilitacyjna i pielęgnacyjna - organizacja i pokrycie kosztów",
+      "sumsInsured": [
+        {
+          "variantKey": "4f6e6b6e6a4a6a49795147625848492b494c704e36673d3d",
+          "sumInsured": null,
+          "covered": true
+        }
+      ],
+      "priority": 50
+    },
+    {
+      "label": "Powypadkowa pomoc psychologa – organizacja i pokrycie kosztów",
+      "sumsInsured": [
+        {
+          "variantKey": "4f6e6b6e6a4a6a49795147625848492b494c704e36673d3d",
+          "sumInsured": null,
+          "covered": true
+        }
+      ],
+      "priority": 60
+    },
+    {
+      "label": "Powypadkowa infolinia medyczna i telefoniczna konsultacja z lekarzem Centrum Pomocy",
+      "sumsInsured": [
+        {
+          "variantKey": "664f44646631384c7378492d383935677164644e41413d3d",
+          "sumInsured": null,
+          "covered": true
+        },
+        {
+          "variantKey": "7944384f663870434250507054313854376c6f7261773d3d",
+          "sumInsured": null,
+          "covered": true
+        },
+        {
+          "variantKey": "4f6e6b6e6a4a6a49795147625848492b494c704e36673d3d",
+          "sumInsured": null,
+          "covered": true
+        }
+      ],
+      "priority": 80
+    },
+    {
+      "label": "Zwrot kosztów naprawy okularów korekcyjnych uszkodzonych lub zniszczonych w następstwie nieszczęśliwego wypadku",
+      "sumsInsured": [
+        {
+          "variantKey": "4f6e6b6e6a4a6a49795147625848492b494c704e36673d3d",
+          "sumInsured": 500,
+          "covered": true
+        }
+      ],
+      "priority": 150
+    },
+    {
+      "label": "Śmierć",
+      "sumsInsured": [
+        {
+          "variantKey": "664f44646631384c7378492d383935677164644e41413d3d",
+          "sumInsured": 30000,
+          "covered": true
+        },
+        {
+          "variantKey": "7944384f663870434250507054313854376c6f7261773d3d",
+          "sumInsured": 50000,
+          "covered": true
+        },
+        {
+          "variantKey": "4f6e6b6e6a4a6a49795147625848492b494c704e36673d3d",
+          "sumInsured": 80000,
+          "covered": true
+        }
+      ],
+      "priority": 170
+    },
+    {
+      "label": "Śmierć rodzica lub opiekuna prawnego w następstwie nieszczęśliwego wypadku",
+      "sumsInsured": [
+        {
+          "variantKey": "664f44646631384c7378492d383935677164644e41413d3d",
+          "sumInsured": 50000,
+          "covered": true
+        },
+        {
+          "variantKey": "7944384f663870434250507054313854376c6f7261773d3d",
+          "sumInsured": 50000,
+          "covered": true
+        },
+        {
+          "variantKey": "4f6e6b6e6a4a6a49795147625848492b494c704e36673d3d",
+          "sumInsured": 100000,
+          "covered": true
+        }
+      ],
+      "priority": 220
+    }
+  ],
+  "insurer": {
+    "role": [
+      "PERSON",
+      "ORGANIZATION"
+    ],
+    "type": "INSURER",
+    "code": "person",
+    "model": {
+      "firstName": null,
+      "lastName": null,
+      "companyName": null,
+      "pesel": null,
+      "regon": null,
+      "email": null,
+      "phone": null,
+      "companyEmail": null,
+      "companyPhone": null,
+      "addresses": [
+        {
+          "type": "RESIDENTIAL",
+          "model": {
+            "street": null,
+            "flatNumber": null,
+            "buildingNumber": null,
+            "postalCode": null,
+            "postOffice": null,
+            "city": null,
+            "state": null
+          }
+        },
+        {
+          "type": "CORRESPONDENCE",
+          "model": {
+            "street": null,
+            "flatNumber": null,
+            "buildingNumber": null,
+            "postalCode": null,
+            "postOffice": null,
+            "city": null,
+            "state": null
+          }
+        }
+      ]
+    }
+  },
+  "insuredPersons": [
+    {
+      "code": "person_1",
+      "role": "PERSON",
+      "type": "INSURED_PERSON"
+    }
+  ],
+  "insuredSubjects": [],
+  "statements": [
+    {
+      "type": "INFO",
+      "contentId": "pakenc_pWgYdlzGmzfosa8hCBr9-IYgXJjm7Jp5NnM5KcWlmls=",
+      "pakContentId": "KLAUZULA_INFORMACYJNA_POLISA",
+      "content": "Oświadczam, że otrzymałam/em informację o przetwarzaniu moich danych osobowych, zawartą w dostarczonym mi dokumencie Informacja o Administratorze danych osobowych.",
+      "shortContent": "Zapoznałam/em się z informacją o przetwarzaniu moich danych osobowych, zawartą w dokumencie Informacja Administratora danych osobowych",
+      "fileId": "pakenc_6Qm_Vk0_AFfPlMsjlx7jkTm7ynUjyz_Z-CAvgppd_CK_DncbwEUTbUjnKwWwbHLsIWSCqA8jP-mdFyzG8KkHhQ==",
+      "fileName": "Informacja o Administratorze danych osobowych",
+      "yesOptionVisible": false,
+      "yesOptionRequired": true,
+      "noOptionVisible": false,
+      "statementRequired": true,
+      "statementEditable": false,
+      "customerStatements": [],
+      "statementCompanies": []
+    },
+    {
+      "type": "AGREEMENT",
+      "contentId": "pakenc_DuOXfKo8bihvM3e9l-XuEGhKHDScGJaTCbD8OwH2R3c=",
+      "pakContentId": "REGULAMIN_KAN_ELEKTR",
+      "content": "Zapoznałam/em się z treścią Regulaminu świadczenia usług drogą elektroniczną.",
+      "shortContent": "Zapoznałam/em się z treścią Regulaminu świadczenia usług drogą elektroniczną.",
+      "fileId": "pakenc_6Qm_Vk0_AFfPlMsjlx7jkbSmxd7z1Ubm1oWMThxziJw3spgcnROaX9mR90YMXLk2GB41gdR-kPkc68w3FZ3ZTw==",
+      "fileName": "Regulamin serwisu mojePZU.pdf",
+      "yesOptionVisible": true,
+      "yesOptionRequired": true,
+      "noOptionVisible": true,
+      "statementRequired": true,
+      "statementEditable": true,
+      "customerStatements": [],
+      "statementCompanies": []
+    },
+    {
+      "type": "INFO",
+      "contentId": "pakenc_tIF8evsxFTUqT9-gyBCExQ==",
+      "pakContentId": "OWU PZU SA",
+      "content": "Otrzymałem/Otrzymałam i zapoznałem/zapoznałam się z treścią ogólnych warunków ubezpieczenia i dokumentem zawierającym informacje o produkcie ubezpieczeniowym, na podstawie których wnioskuję o zawarcie umowy.",
+      "shortContent": "Otrzymałem/Otrzymałam i zapoznałem/zapoznałam się z treścią ogólnych warunków ubezpieczenia i dokumentem zawierającym informacje o produkcie ubezpieczeniowym, na podstawie których wnioskuję o zawarcie umowy.",
+      "fileId": null,
+      "fileName": null,
+      "yesOptionVisible": false,
+      "yesOptionRequired": true,
+      "noOptionVisible": false,
+      "statementRequired": true,
+      "statementEditable": false,
+      "customerStatements": [],
+      "statementCompanies": []
+    },
+    {
+      "type": "INFO",
+      "contentId": "pakenc_uqYK8RFrI-s9FyTcBv18Zg==",
+      "pakContentId": "IDD PZU SA",
+      "content": "Oświadczam, że niniejsza umowa ubezpieczenia spełnia moje wymagania i potrzeby - przy uwzględnieniu wysokości składki, jaką jestem skłonny/a zapłacić. Zawieram ją w wyniku mojej świadomej decyzji.",
+      "shortContent": "Oświadczam, że niniejsza umowa ubezpieczenia spełnia moje wymagania i potrzeby - przy uwzględnieniu wysokości składki, jaką jestem skłonny/a zapłacić. Zawieram ją w wyniku mojej świadomej decyzji.",
+      "fileId": null,
+      "fileName": null,
+      "yesOptionVisible": false,
+      "yesOptionRequired": true,
+      "noOptionVisible": false,
+      "statementRequired": true,
+      "statementEditable": false,
+      "customerStatements": [],
+      "statementCompanies": []
+    },
+    {
+      "type": "AGREEMENT",
+      "contentId": "pakenc_xlTsWX7E-KPQXWOoCSwpoGJ16rMKju5BSq18yck8xkg=",
+      "pakContentId": "ZGODA_MARKET_GRUPA_PZU",
+      "content": "Wyrażam zgodę na udostępnienie przez PZU SA moich danych osobowych podmiotom z grupy PZU, tj. PZU Życie SA, PTE PZU SA, TFI PZU SA, PZU Pomoc SA, PZU Zdrowie SA, PZU CO SA, Link4 TU SA, PEKAO SA, Alior Bank SA, w ich własnych celach marketingowych, obejmujących profilowanie zmierzające do określenia preferencji lub potrzeb w zakresie produktów ubezpieczeniowych i innych produktów finansowych oraz przedstawienia odpowiedniej oferty.",
+      "shortContent": "Zgoda na udostępnienie danych w celach marketingowych przez PZU SA spółkom Grupy PZU",
+      "fileId": null,
+      "fileName": null,
+      "yesOptionVisible": true,
+      "yesOptionRequired": false,
+      "noOptionVisible": true,
+      "statementRequired": false,
+      "statementEditable": true,
+      "customerStatements": [],
+      "statementCompanies": []
+    },
+    {
+      "type": "AGREEMENT",
+      "contentId": "pakenc_UoU5E0uHbrFJPt-_eYgwCN-GxZD-owwq02uNHhdZo4A=",
+      "pakContentId": "ZGODA_HANDLOWA_KAN_ELEKTR",
+      "content": "Wyrażam zgodę na otrzymywanie od PZU SA, PZU Życie SA, PTE PZU SA, TFI PZU SA, PZU Pomoc SA, PZU Zdrowie SA, PZU CO SA, Link4 TU SA, PEKAO SA, Alior Bank SA informacji marketingowych za pośrednictwem środków komunikacji elektronicznej (e-mail, SMS/MMS).",
+      "shortContent": "Zgoda na otrzymywanie informacji marketingowych drogą elektroniczną",
+      "fileId": null,
+      "fileName": null,
+      "yesOptionVisible": true,
+      "yesOptionRequired": false,
+      "noOptionVisible": true,
+      "statementRequired": false,
+      "statementEditable": true,
+      "customerStatements": [],
+      "statementCompanies": []
+    },
+    {
+      "type": "AGREEMENT",
+      "contentId": "pakenc_UoU5E0uHbrFJPt-_eYgwCPeSJ9Y4F6JhdmHeeYI0LKc=",
+      "pakContentId": "ZGODA_HANDLOWA_POL_GLOSOWE",
+      "content": "Wyrażam zgodę na otrzymywanie od PZU SA, PZU Życie SA, PTE PZU SA, TFI PZU SA, PZU Pomoc SA, PZU Zdrowie SA, PZU CO SA, Link4 TU SA, PEKAO SA, Alior Bank SA informacji marketingowych za pośrednictwem połączeń głosowych (rozmowa telefoniczna, komunikaty głosowe IVR).",
+      "shortContent": "Zgoda na otrzymywanie informacji marketingowych telefonicznie",
+      "fileId": null,
+      "fileName": null,
+      "yesOptionVisible": true,
+      "yesOptionRequired": false,
+      "noOptionVisible": true,
+      "statementRequired": false,
+      "statementEditable": true,
+      "customerStatements": [],
+      "statementCompanies": []
+    },
+    {
+      "type": "AGREEMENT",
+      "contentId": "pakenc_-8-1VcFCmS8IJKiIVhbOCz4R1JgPIvfk7zxKR8Prbb0=",
+      "pakContentId": "KLAUZULA_MARKET_NIEZAW_UMOWA",
+      "content": "Wyrażam zgodę na przetwarzanie moich danych osobowych przez PZU SA w celu przekazywania mi treści marketingowych dotyczących produktów ubezpieczeniowych i innych produktów finansowych, kiedy nie będę posiadać ubezpieczenia w tej firmie.",
+      "shortContent": "Zgoda na przetwarzanie danych w celach marketingowych w przypadku braku umowy w PZU SA",
+      "fileId": null,
+      "fileName": null,
+      "yesOptionVisible": true,
+      "yesOptionRequired": false,
+      "noOptionVisible": true,
+      "statementRequired": false,
+      "statementEditable": true,
+      "customerStatements": [],
+      "statementCompanies": []
+    },
+    {
+      "type": "AGREEMENT",
+      "contentId": "pakenc__CksEEZcIN6LAgxLSIiU0U6X2KS7cCOQ42dvX-qTp2s=",
+      "pakContentId": "ZGODA_OBSLUGOWA_KAN_ELEKTR",
+      "content": "Wyrażam zgodę na przesyłanie informacji i dokumentów, w tym OWU oraz dokumentu zawierającego informacje o produkcie, a także informacji, o których mowa w art. 9 ust.1 ustawy o dystrybucji ubezpieczeń, które mają związek z wnioskowaną lub zawartą umową ubezpieczenia w PZU SA za pośrednictwem środków komunikacji elektronicznej, w tym wiadomości SMS/MMS lub e-mail, na wskazany przeze mnie numer telefonu lub adres mailowy. W razie zmiany podanych przeze mnie danych kontaktowych, zobowiązuję się uaktualniać moje dane, dzięki którym będę otrzymywać informacje za pośrednictwem środków komunikacji elektronicznej.",
+      "shortContent": "Zgoda na otrzymywanie od PZU SA informacji obsługowych drogą elektroniczną",
+      "fileId": null,
+      "fileName": null,
+      "yesOptionVisible": true,
+      "yesOptionRequired": true,
+      "noOptionVisible": true,
+      "statementRequired": true,
+      "statementEditable": true,
+      "customerStatements": [],
+      "statementCompanies": []
+    },
+    {
+      "type": "INFO",
+      "contentId": "pakenc_isSvMDRG0BElvp_cSgdH5pHHGB3Nti62JnTSFtXsDUs=",
+      "pakContentId": "KLAUZULA_ODWOLANIE_ZGODY",
+      "content": "W zakresie, w jakim podstawą przetwarzania Pani/Pana danych osobowych jest zgoda, ma Pani/Pan prawo jej wycofania. Zgodę można odwołać w każdym czasie w oddziale lub wysyłając e-mail na adres kontakt@pzu.pl albo pismo na adres PZU, ul. Postępu 18a, 02-676 Warszawa. Wycofanie zgody nie wpływa na zgodność z prawem przetwarzania dokonanego na podstawie zgody przed jej wycofaniem.",
+      "shortContent": "W zakresie, w jakim podstawą przetwarzania Pani/Pana danych osobowych jest zgoda, ma Pani/Pan prawo jej wycofania",
+      "fileId": null,
+      "fileName": null,
+      "yesOptionVisible": false,
+      "yesOptionRequired": false,
+      "noOptionVisible": false,
+      "statementRequired": false,
+      "statementEditable": false,
+      "customerStatements": [],
+      "statementCompanies": []
+    }
+  ],
+  "companies": [
+    {
+      "companyId": "PZU_SA",
+      "shortName": "PZU SA",
+      "name": "Powszechny Zakład Ubezpieczeń Spółka Akcyjna",
+      "address": "al. Jana Pawła II 24, 00-133 Warszawa"
+    },
+    {
+      "companyId": "PZU_ZYCIE_SA",
+      "shortName": "PZU Życie SA",
+      "name": "Powszechny Zakład Ubezpieczeń na Życie Spółka Akcyjna",
+      "address": "al. Jana Pawła II 24, 00-133 Warszawa"
+    },
+    {
+      "companyId": "PTE_SA",
+      "shortName": "PTE PZU SA",
+      "name": "Powszechne Towarzystwo Emerytalne PZU Spółka Akcyjna",
+      "address": "al. Jana Pawła II 24, 00-133 Warszawa"
+    },
+    {
+      "companyId": "TFI_SA",
+      "shortName": "TFI PZU SA",
+      "name": "Towarzystwo Funduszy Inwestycyjnych PZU Spółka Akcyjna",
+      "address": "al. Jana Pawła II 24, 00-133 Warszawa"
+    },
+    {
+      "companyId": "PZU_POMOC",
+      "shortName": "PZU Pomoc SA",
+      "name": "PZU Pomoc Spółka Akcyjna",
+      "address": "al. Jana Pawła II 24, 00-133 Warszawa"
+    },
+    {
+      "companyId": "PZU_ZDROWIE_SA",
+      "shortName": "PZU Zdrowie SA",
+      "name": "PZU Zdrowie Spółka Akcyjna",
+      "address": "ul. Konstruktorska 13, 02-673 Warszawa"
+    },
+    {
+      "companyId": "PZU_CO",
+      "shortName": "PZU CO SA",
+      "name": "PZU Centrum Operacji Spółka Akcyjna",
+      "address": "ul. Konstruktorska 13, 02-673 Warszawa"
+    },
+    {
+      "companyId": "LINK4_SA",
+      "shortName": "Link4 TU SA",
+      "name": "Link4 Towarzystwo Ubezpieczeń Spółka Akcyjna",
+      "address": "ul. Postępu 15, 02-676 Warszawa"
+    },
+    {
+      "companyId": "PEKAO_SA",
+      "shortName": "PEKAO SA",
+      "name": "Bank Polska Kasa Opieki Spółka Akcyjna",
+      "address": "ul. Grzybowska 53/57, 00-950 Warszawa"
+    },
+    {
+      "companyId": "Alior_Bank_SA",
+      "shortName": "Alior Bank SA",
+      "name": "Alior Bank Spółka Akcyjna",
+      "address": "ul. Łopuszańska 38D, 02-232 Warszawa"
+    }
+  ],
+  "owus": [
+    {
+      "code": "pakenc_ITjazYjyFbmaoCNMBZpFcTftT234feBhHqtkguufySMbKH4lRL83HnBBIk4s81g_0JLy7lF73FJAOxofKyF2Ww==",
+      "name": "UZ/195/2019"
+    }
+  ]
+}
